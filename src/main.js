@@ -77,7 +77,8 @@ var defaultViewOptions = {
   fontFamily:          'sans-serif',
   fontSize:            11,
   fontStyle:           'normal',
-  timeLabelPrecision:  2
+  timeLabelPrecision:  2,
+  playheadOffset:      0
 };
 
 var defaultZoomviewOptions = {
@@ -123,6 +124,7 @@ function getOverviewOptions(opts) {
     'playedWaveformColor',
     'playheadColor',
     'playheadTextColor',
+    'playheadOffset',
     'timeLabelPrecision',
     'axisGridlineColor',
     'axisLabelColor',
@@ -175,6 +177,7 @@ function getZoomviewOptions(opts) {
     'playedWaveformColor',
     'playheadColor',
     'playheadTextColor',
+    'playheadOffset',
     'timeLabelPrecision',
     'axisGridlineColor',
     'axisLabelColor',

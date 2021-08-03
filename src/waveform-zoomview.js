@@ -108,7 +108,8 @@ function WaveformZoomView(waveformData, container, peaks) {
     playheadTextColor: self._viewOptions.playheadTextColor,
     playheadFontFamily: self._viewOptions.fontFamily,
     playheadFontSize: self._viewOptions.fontSize,
-    playheadFontStyle: self._viewOptions.fontStyle
+    playheadFontStyle: self._viewOptions.fontStyle,
+    playheadOffset: self._viewOptions.playheadOffset
   });
 
   self._playheadLayer.addToStage(self._stage);
